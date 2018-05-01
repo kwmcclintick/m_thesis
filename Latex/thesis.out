@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{State of the Art}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Thesis Contributions}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Thesis Organization}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{List of Related Publications}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Data Synthesis and Neural Networks}{}% 9
+\BOOKMARK [1][-]{section.2.1}{The Radio Frequency Front End}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Classical Channel Models}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Machine Learning Algorithms}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Neural Network Architectures}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.5}{Summary}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Physical Layer Neural Network Framework for Training Data Formation}{}% 15
+\BOOKMARK [1][-]{subsection.3.0.1}{Introduction}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.0.2}{Proposed Framework}{subsection.3.0.1}% 17
+\BOOKMARK [2][-]{subsection.3.0.3}{Implementation}{subsection.3.0.1}% 18
+\BOOKMARK [2][-]{subsection.3.0.4}{Simulation and Results}{subsection.3.0.1}% 19
+\BOOKMARK [2][-]{subsection.3.0.5}{Summary}{subsection.3.0.1}% 20
+\BOOKMARK [0][-]{chapter.4}{Proposed LTE-R Channel Model and Framework}{}% 21
+\BOOKMARK [1][-]{section.4.1}{test}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Summary}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Proposed Heterogeneous CSS Prototype}{}% 24
+\BOOKMARK [1][-]{subsection.5.0.1}{test}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.1}{Summary}{chapter.5}% 26
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Research Outcomes}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Future Work}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter*.12}{Bibliography}{}% 30
+\BOOKMARK [0][-]{appendix.A}{Heterogeneous Cooperative Spectrum Sensing Code}{}% 31
+\BOOKMARK [1][-]{section.A.1}{harddecisionpdroc.m}{appendix.A}% 32
+\BOOKMARK [1][-]{section.A.2}{softharddecisionpd.m}{appendix.A}% 33
+\BOOKMARK [1][-]{section.A.3}{spectrumsenseusrp.py}{appendix.A}% 34
+\BOOKMARK [1][-]{section.A.4}{gnuradiortlsdrsense.py}{appendix.A}% 35
+\BOOKMARK [0][-]{appendix.B}{LTE-R Analysis Code}{}% 36
+\BOOKMARK [1][-]{section.B.1}{kfactordist.m}{appendix.B}% 37
+\BOOKMARK [1][-]{section.B.2}{bercalculation.m}{appendix.B}% 38

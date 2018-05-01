@@ -1,0 +1,10 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces The structure of the NN used in section\nobreakspace {}\ref {sec4}. Each row represents a layer, where output shape is displayed as (batch, height, width, channels) and (batch\_size, input\_dim). Each layer is connected to the previous layer, and number of params is proportional to SPS and the size of convolutional layers.\relax }}{10}{table.caption.6}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Four datasets generated with our framework. Datasets are trained, partitioned, and tested against a modulation classifier.\relax }}{11}{table.caption.7}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

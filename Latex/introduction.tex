@@ -1,0 +1,50 @@
+\chapter{Introduction}
+\label{ch:introduction}
+\section{Motivation}
+what ML offers phsycial layer
+
+\section{State of the Art}
+sota
+
+\section{Current Issues}
+The differences between physical layer ML and other ML domains are highlighted in~\cite{o2016radio}, drawing attention to the unique challenges the physical layer ML domain faces. Although transmitted wave-forms begin as well defined, man-made, synthetic structures, a virtually endless number of probabalistic, and sometimes non-linear, phenomenom alter the observed wave-forms receive-side. Even within a single phenomenom, there can exist again a virtually endless number of realizations or types of that imperfection. Some of the most prevelent and common imperfections include:
+\begin{enumerate}
+	\item Carrier Frequency Offset of both the transmitter and receiver's local oscillators, which drive each radio's mixers
+	\item Phase Ambiguity introduced by the unknown distance between transmitter and receiver
+	\item Random Symbol Timing Offset resulting from independently running sample clocks
+	\item Additive White Gaussian Noise, bursty noise from phenomenom such as weather, interference from same and adjacent channels
+	\item Wide-band phase rotation resulting in constructive and destructive phase wave-form copies created by reflectors
+	\item Narrow-band Delay Spread due to multi-path interference
+	\item Random signal arrival times due to MAC and Network layer architectures and schedules
+	\item Doppler Shifts resulting from motion of the transmitter, receiver, or scatterers and reflectors within the wireless channel
+\end{enumerate}
+While some of these imperfections have parallels with imperfections of other ML domains, others do not. A significant example of this is phase ambiguity, which, when of a value greater than 90 degrees of rotation, renders polar representation properties of image domain ML algorithms useless. Furthermore, those imperfections that do have parallels in other domains have some very important differences. The pitch offset of speech and audio, for instance, is not nearly as rapidly time-varing as the CFO of a radio's local oscillator. The much more densly packed information carried by radio communications make phenomenom like multi-path introduce significantly more obscurity in the physical layer domain than audio domain.
+
+\begin{table*}[t!]
+\centering
+\caption{A breif equating of various imperfections and phenomenom across the Voice and Audio, Image, and Radio Physical Layer ML domains}
+\begin{tabular}{c  c  c }
+\toprule
+Voice and Audio & Images & Physical Layer\\\hline\hline
+word length dialation & & Inter Symbol Interference\\
+random time of arrival & &\\
+pitch offsets & & carrier frequency offset\\
+\hline
+\bottomrule
+\end{tabular}
+\label{table:mldomains}
+\end{table*}
+
+Although well developed corrective measures exist 
+
+\section{Thesis Contributions}
+contributions
+
+\section{Thesis Organization}
+org
+
+\section{List of Related Publications}
+The following publications resulted from the activities of this thesis research:
+\begin{itemize}
+	\item pub
+\end{itemize}

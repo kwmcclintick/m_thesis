@@ -1,0 +1,89 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{tsb88tia}
+\citation{rappaport1996wireless}
+\citation{schenk2008rf}
+\citation{wymeersch2007iterative}
+\citation{raina2009large}
+\citation{8054694,wang2017deep}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Physical Layer Neural Network Framework for Training Data Formation}{4}{chapter.3}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chapter3}{{3}{4}{Physical Layer Neural Network Framework for Training Data Formation}{chapter.3}{}}
+\citation{o2016radio}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.1}Introduction}{5}{subsection.3.0.1}}
+\newlabel{sec1}{{3.0.1}{5}{Introduction}{subsection.3.0.1}{}}
+\citation{8170853}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.2}Proposed Framework}{6}{subsection.3.0.2}}
+\newlabel{sec2}{{3.0.2}{6}{Proposed Framework}{subsection.3.0.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces ChannelPush.py takes in sampBasic.hdf5 and ChannelConfig.ini as inputs, and writes one or many Noisey.hdf5 outfiles. In the create channel object matrix sub-process, the channel library is used to initialize channel objects, which inherit from the channel parent class. The dataflow() function sequentially pushes data through each list of channels in parallel, making use of the Multiprocessing package.\relax }}{6}{figure.caption.4}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:channeltoolsub}{{3.1}{6}{ChannelPush.py takes in sampBasic.hdf5 and ChannelConfig.ini as inputs, and writes one or many Noisey.hdf5 outfiles. In the create channel object matrix sub-process, the channel library is used to initialize channel objects, which inherit from the channel parent class. The dataflow() function sequentially pushes data through each list of channels in parallel, making use of the Multiprocessing package.\relax }{figure.caption.4}{}}
+\citation{convnetmodrec}
+\citation{8054694}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.3}Implementation}{8}{subsection.3.0.3}}
+\newlabel{sec3}{{3.0.3}{8}{Implementation}{subsection.3.0.3}{}}
+\citation{convnetmodrec}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Example 2D channel matrix built from ChannelConfig.ini. There exist 20 AWGN, 6 Saleh-Valenzuela, and 18 Doppler Shift channel objects in this example, which will result in 2160 hdf5 files written. Each dataset features a unique combination of the 3 wireless channels modifying the same input dataset, with labels describing which realization was experienced\relax }}{9}{figure.caption.5}}
+\newlabel{fig:channeltoolstructure}{{3.2}{9}{Example 2D channel matrix built from ChannelConfig.ini. There exist 20 AWGN, 6 Saleh-Valenzuela, and 18 Doppler Shift channel objects in this example, which will result in 2160 hdf5 files written. Each dataset features a unique combination of the 3 wireless channels modifying the same input dataset, with labels describing which realization was experienced\relax }{figure.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces The structure of the NN used in section\nobreakspace  {}\ref  {sec4}. Each row represents a layer, where output shape is displayed as (batch, height, width, channels) and (batch\_size, input\_dim). Each layer is connected to the previous layer, and number of params is proportional to SPS and the size of convolutional layers.\relax }}{10}{table.caption.6}}
+\newlabel{table:tab1}{{3.1}{10}{The structure of the NN used in section~\ref {sec4}. Each row represents a layer, where output shape is displayed as (batch, height, width, channels) and (batch\_size, input\_dim). Each layer is connected to the previous layer, and number of params is proportional to SPS and the size of convolutional layers.\relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.4}Simulation and Results}{10}{subsection.3.0.4}}
+\newlabel{sec4}{{3.0.4}{10}{Simulation and Results}{subsection.3.0.4}{}}
+\citation{o2016convolutional}
+\citation{8170853}
+\citation{o2016convolutional}
+\newlabel{eq3}{{3.1}{11}{Simulation and Results}{equation.3.0.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Four datasets generated with our framework. Datasets are trained, partitioned, and tested against a modulation classifier.\relax }}{11}{table.caption.7}}
+\newlabel{table:tab2}{{3.2}{11}{Four datasets generated with our framework. Datasets are trained, partitioned, and tested against a modulation classifier.\relax }{table.caption.7}{}}
+\citation{o2016convolutional}
+\citation{8170853}
+\newlabel{eq1}{{3.2}{12}{Simulation and Results}{equation.3.0.2}{}}
+\newlabel{eq4}{{3.3}{12}{Simulation and Results}{equation.3.0.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces CFO\_super test results when trained with RML\_4sps. Accuracy is averaged over 11 modulation schemes, and significantly decreases when tested against a CFO channel of just $0.2\%$ normalized to sample rate. Accuracy peaks at $60\%$.\relax }}{13}{figure.caption.8}}
+\newlabel{fig:nocfo}{{3.3}{13}{CFO\_super test results when trained with RML\_4sps. Accuracy is averaged over 11 modulation schemes, and significantly decreases when tested against a CFO channel of just $0.2\%$ normalized to sample rate. Accuracy peaks at $60\%$.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces CFO\_super test results when trained with CFO\_grc, as in the original 2016 dataset. Accuracy is averaged over 11 modulation schemes, and significantly decreases when tested against CFO channels of more than $1\%$ normalized to sample rate. Accuracy peaks at $38\%$.\relax }}{13}{figure.caption.9}}
+\newlabel{fig:cfo}{{3.4}{13}{CFO\_super test results when trained with CFO\_grc, as in the original 2016 dataset. Accuracy is averaged over 11 modulation schemes, and significantly decreases when tested against CFO channels of more than $1\%$ normalized to sample rate. Accuracy peaks at $38\%$.\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces CFO\_super confidence matrix for $12.53\%$ CFO averaged over SNR, see Figure\nobreakspace  {}\ref  {fig:cfo}. AM-SSB is the predicted label at low SNR values as when there is no CFO, and often correctly predicts CPFSK at higher SNR values. This seems to imply certain periodic CFO values do not affect the appearance of CPFSK constellation plots.\relax }}{14}{figure.caption.10}}
+\newlabel{fig:confusion}{{3.5}{14}{CFO\_super confidence matrix for $12.53\%$ CFO averaged over SNR, see Figure~\ref {fig:cfo}. AM-SSB is the predicted label at low SNR values as when there is no CFO, and often correctly predicts CPFSK at higher SNR values. This seems to imply certain periodic CFO values do not affect the appearance of CPFSK constellation plots.\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Phase\_super test results when trained with RML\_4sps. Accuracy is averaged over 11 modulation schemes, and remains close to peak performance for phase offsets of less than 4 degrees and certain discretized values. $60\%$ peak accuracy can drop by as much as half for many phase offset values.\relax }}{14}{figure.caption.11}}
+\newlabel{fig:phase}{{3.6}{14}{Phase\_super test results when trained with RML\_4sps. Accuracy is averaged over 11 modulation schemes, and remains close to peak performance for phase offsets of less than 4 degrees and certain discretized values. $60\%$ peak accuracy can drop by as much as half for many phase offset values.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.0.5}Summary}{14}{subsection.3.0.5}}
+\newlabel{sec5}{{3.0.5}{14}{Summary}{subsection.3.0.5}{}}
+\@setckpt{chapter3}{
+\setcounter{page}{16}
+\setcounter{equation}{3}
+\setcounter{enumi}{0}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{0}
+\setcounter{subsection}{5}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{6}
+\setcounter{table}{2}
+\setcounter{parentequation}{0}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lotdepth}{1}
+\setcounter{float@type}{8}
+\setcounter{r@tfl@t}{0}
+\setcounter{Item}{0}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{20}
+\setcounter{FancyVerbLine}{0}
+\setcounter{lstnumber}{1}
+\setcounter{section@level}{2}
+\setcounter{lstlisting}{0}
+}

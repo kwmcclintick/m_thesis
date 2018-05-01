@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: appendixb.aux
+A level-1 auxiliary file: appendixc.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: mybib.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 11 entries,
+            4024 wiz_defined-function locations,
+            879 strings with 9185 characters,
+and the built_in function-call counts, 7152 in all, are:
+= -- 548
+> -- 152
+< -- 51
++ -- 83
+- -- 27
+* -- 339
+:= -- 1096
+add.period$ -- 24
+call.type$ -- 11
+change.case$ -- 7
+chr.to.int$ -- 111
+cite$ -- 11
+duplicate$ -- 523
+empty$ -- 663
+format.name$ -- 35
+if$ -- 1649
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 94
+newline$ -- 56
+num.names$ -- 11
+pop$ -- 227
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 566
+stack$ -- 0
+substring$ -- 265
+swap$ -- 397
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 11
+warning$ -- 0
+while$ -- 29
+width$ -- 13
+write$ -- 120
