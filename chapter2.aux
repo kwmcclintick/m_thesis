@@ -1,0 +1,474 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{o2016radio}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chapter2}{{2}{3}{Background}{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Classical Channel Models}{4}{section.2.1}}
+\newlabel{chanmods}{{2.1}{4}{Classical Channel Models}{section.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces A flow chart of a transmit and receive chain of communications tasks. Arrows indicate movement of information from one block to another. The form that information takes at each step is communicated through annotations. Antennas are pictured as upside-down triangles.\relax }}{4}{figure.caption.4}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:fulltxrx}{{2.1}{4}{A flow chart of a transmit and receive chain of communications tasks. Arrows indicate movement of information from one block to another. The form that information takes at each step is communicated through annotations. Antennas are pictured as upside-down triangles.\relax }{figure.caption.4}{}}
+\citation{Shannon}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Additive White Gaussian Noise (AWGN)}{5}{subsection.2.1.1}}
+\newlabel{awgn}{{2.1.1}{5}{Additive White Gaussian Noise (AWGN)}{subsection.2.1.1}{}}
+\newlabel{eq:gaussianpdf}{{2.1}{5}{Additive White Gaussian Noise (AWGN)}{equation.2.1.1}{}}
+\newlabel{eq:capacity}{{2.2}{5}{Additive White Gaussian Noise (AWGN)}{equation.2.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Path Loss}{5}{subsection.2.1.2}}
+\newlabel{pathloss}{{2.1.2}{5}{Path Loss}{subsection.2.1.2}{}}
+\newlabel{eq:friis}{{2.3}{5}{Path Loss}{equation.2.1.3}{}}
+\citation{pahlavan2005wireless}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces A cartoon showing the sum of several Gaussian PDFs (\ref  {eq:gaussianpdf}) at varying frequencies. Amplitude and location of PDFs are arbitrary and not representative of any measurement or formal model.\relax }}{6}{figure.caption.5}}
+\newlabel{fig:awgn}{{2.2}{6}{A cartoon showing the sum of several Gaussian PDFs (\ref {eq:gaussianpdf}) at varying frequencies. Amplitude and location of PDFs are arbitrary and not representative of any measurement or formal model.\relax }{figure.caption.5}{}}
+\newlabel{eq:trms}{{2.4}{6}{Path Loss}{equation.2.1.4}{}}
+\citation{pahlavan2005wireless}
+\newlabel{eq:cohbw}{{2.5}{7}{Path Loss}{equation.2.1.5}{}}
+\newlabel{eq:tau}{{2.6}{7}{Path Loss}{equation.2.1.6}{}}
+\newlabel{eq:coeff}{{2.7}{7}{Path Loss}{equation.2.1.7}{}}
+\newlabel{eq:po}{{2.8}{7}{Path Loss}{equation.2.1.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The discrete delay channel model. Inputs each have isolated time delays $\tau _i$, ray powers $|\beta _i|^2=A_0 a_i/d_i$, and ray phases $e^{j\phi _i}$.\relax }}{7}{figure.caption.6}}
+\newlabel{fig:discdelay}{{2.3}{7}{The discrete delay channel model. Inputs each have isolated time delays $\tau _i$, ray powers $|\beta _i|^2=A_0 a_i/d_i$, and ray phases $e^{j\phi _i}$.\relax }{figure.caption.6}{}}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{rappaport1996wireless}
+\citation{pahlavan2005wireless}
+\@writefile{toc}{\contentsline {subsubsection}{Narrow-Band Signal}{8}{section*.7}}
+\newlabel{eq:prnarrow}{{2.9}{8}{Narrow-Band Signal}{equation.2.1.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces A series of narrow-band transmissions from\nobreakspace  {}\cite  {pahlavan2005wireless}, received in a room obtained by the 2D ray-tracing model (\ref  {eq:prnarrow}). a) Line of Sight (LOS) path (no reflections). b) First-order reflection ($K=2$ for coefficients equation (\ref  {eq:coeff})). c) Second-order reflection, $K=3$. d) Third-order reflection, $K=4$. Notice that higher order reflections have higher frequency changes in power received as distance increases, and that the average power (black line) decreases with distance due to (\ref  {eq:friis}).\relax }}{8}{figure.caption.8}}
+\newlabel{fig:narrowpower}{{2.4}{8}{A series of narrow-band transmissions from~\cite {pahlavan2005wireless}, received in a room obtained by the 2D ray-tracing model (\ref {eq:prnarrow}). a) Line of Sight (LOS) path (no reflections). b) First-order reflection ($K=2$ for coefficients equation (\ref {eq:coeff})). c) Second-order reflection, $K=3$. d) Third-order reflection, $K=4$. Notice that higher order reflections have higher frequency changes in power received as distance increases, and that the average power (black line) decreases with distance due to (\ref {eq:friis}).\relax }{figure.caption.8}{}}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\@writefile{toc}{\contentsline {subsubsection}{Wide-Band Signal}{9}{section*.9}}
+\newlabel{eq:prwide}{{2.10}{9}{Wide-Band Signal}{equation.2.1.10}{}}
+\citation{rappaport1996wireless}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces A series of wide-band transmissions from\nobreakspace  {}\cite  {pahlavan2005wireless}, received in a room obtained by the 2D ray-tracing model (\ref  {eq:prnarrow}). a) Line of Sight (LOS) path (no reflections). b) First-order reflection ($K=2$ for coefficients equation (\ref  {eq:coeff})). c) Second-order reflection, $K=3$. d) Third-order reflection, $K=4$. Average power (black line) decreases with distance due to (\ref  {eq:friis}). For higher order reflections the power received is higher because the impulse signals are not totally isolated.\relax }}{10}{figure.caption.10}}
+\newlabel{fig:widepower}{{2.5}{10}{A series of wide-band transmissions from~\cite {pahlavan2005wireless}, received in a room obtained by the 2D ray-tracing model (\ref {eq:prnarrow}). a) Line of Sight (LOS) path (no reflections). b) First-order reflection ($K=2$ for coefficients equation (\ref {eq:coeff})). c) Second-order reflection, $K=3$. d) Third-order reflection, $K=4$. Average power (black line) decreases with distance due to (\ref {eq:friis}). For higher order reflections the power received is higher because the impulse signals are not totally isolated.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Knife-Edge Diffraction Model}{10}{section*.11}}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{oku68}
+\citation{tsb88tia}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\newlabel{eq:v}{{2.11}{11}{Knife-Edge Diffraction Model}{equation.2.1.11}{}}
+\newlabel{eq:diffraction}{{2.12}{11}{Knife-Edge Diffraction Model}{equation.2.1.12}{}}
+\newlabel{eq:fresnel}{{2.13}{11}{Knife-Edge Diffraction Model}{equation.2.1.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Topographical Path Loss Models}{11}{section*.13}}
+\newlabel{eq:okuhata}{{2.14}{11}{Topographical Path Loss Models}{equation.2.1.14}{}}
+\citation{tsb88tia,rappaport1996wireless,pahlavan2005wireless}
+\citation{tsb88tia}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces An illusration\nobreakspace  {}\cite  {rappaport1996wireless} of (\ref  {eq:diffraction}), where $\Upsilon $ is the transmitter, $R$ is the receiver, $h$ is the height of the obstruction starting from the direct path from $\Upsilon $ to $R$, and $d_1, d_2$ from the transmitter and receiver to the obstruction, respectively. The Huygens secondary source mimics a potentially strong reflected path, often taking the form of a reflection off a layer of the earth's ionosphere (see Section\nobreakspace  {}\ref  {terrestrial}).\relax }}{12}{figure.caption.12}}
+\newlabel{fig:knifeedge}{{2.6}{12}{An illusration~\cite {rappaport1996wireless} of (\ref {eq:diffraction}), where $\Upsilon $ is the transmitter, $R$ is the receiver, $h$ is the height of the obstruction starting from the direct path from $\Upsilon $ to $R$, and $d_1, d_2$ from the transmitter and receiver to the obstruction, respectively. The Huygens secondary source mimics a potentially strong reflected path, often taking the form of a reflection off a layer of the earth's ionosphere (see Section~\ref {terrestrial}).\relax }{figure.caption.12}{}}
+\newlabel{eq:antgain}{{2.15}{12}{Topographical Path Loss Models}{equation.2.1.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Just the Beginning: Fading}{12}{section*.16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces A plot\nobreakspace  {}\cite  {rappaport1996wireless} of correction factor, $G_{AREA}$ to be used in (\ref  {eq:okuhata}) for various frequencies in open, quasi-open, and suburban areas (urban not listed).\relax }}{13}{figure.caption.14}}
+\newlabel{fig:garea}{{2.7}{13}{A plot~\cite {rappaport1996wireless} of correction factor, $G_{AREA}$ to be used in (\ref {eq:okuhata}) for various frequencies in open, quasi-open, and suburban areas (urban not listed).\relax }{figure.caption.14}{}}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces A plot\nobreakspace  {}\cite  {rappaport1996wireless} of $A_{mu}(f,d)$, the median attenuation relative to free space, used in (\ref  {eq:okuhata}). Plot assumes base-station height $h_t=200 m$, mobile receiver height $h_r=3 m$, an Urban area, and various distances and frequencies.\relax }}{14}{figure.caption.15}}
+\newlabel{fig:okumara}{{2.8}{14}{A plot~\cite {rappaport1996wireless} of $A_{mu}(f,d)$, the median attenuation relative to free space, used in (\ref {eq:okuhata}). Plot assumes base-station height $h_t=200 m$, mobile receiver height $h_r=3 m$, an Urban area, and various distances and frequencies.\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Doppler Shift}{14}{subsection.2.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces An illustration\nobreakspace  {}\cite  {pahlavan2005wireless} of a radio link between a moving transmitter (left) and stationary receiver (right). Transmitter is moving at velocity $V_m$ at an instantaneous distance $d_0$ from the receiver.\relax }}{15}{figure.caption.17}}
+\newlabel{fig:mobil_illust}{{2.9}{15}{An illustration~\cite {pahlavan2005wireless} of a radio link between a moving transmitter (left) and stationary receiver (right). Transmitter is moving at velocity $V_m$ at an instantaneous distance $d_0$ from the receiver.\relax }{figure.caption.17}{}}
+\newlabel{eq:delayt}{{2.16}{15}{Doppler Shift}{equation.2.1.16}{}}
+\newlabel{eq:doppsig}{{2.17}{15}{Doppler Shift}{equation.2.1.17}{}}
+\newlabel{eq:doppler}{{2.18}{15}{Doppler Shift}{equation.2.1.18}{}}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\newlabel{eq:multipathimpulse}{{2.19}{16}{Doppler Shift}{equation.2.1.19}{}}
+\newlabel{eq:Rhh}{{2.20}{16}{Doppler Shift}{equation.2.1.20}{}}
+\newlabel{eq:RHh}{{2.21}{16}{Doppler Shift}{equation.2.1.21}{}}
+\newlabel{eq:RHH}{{2.22}{16}{Doppler Shift}{equation.2.1.22}{}}
+\newlabel{eq:doppspect}{{2.23}{16}{Doppler Shift}{equation.2.1.23}{}}
+\newlabel{eq:doppspread}{{2.24}{16}{Doppler Shift}{equation.2.1.24}{}}
+\newlabel{eq:jakes}{{2.25}{16}{Doppler Shift}{equation.2.1.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces A flow chart\nobreakspace  {}\cite  {pahlavan2005wireless} summarizing equations (\ref  {eq:Rhh}) through (\ref  {eq:RHH}). Arrows indicate Fourier (down) and inverse Fourier (up) transforms.\relax }}{17}{figure.caption.18}}
+\newlabel{fig:doppflow}{{2.10}{17}{A flow chart~\cite {pahlavan2005wireless} summarizing equations (\ref {eq:Rhh}) through (\ref {eq:RHH}). Arrows indicate Fourier (down) and inverse Fourier (up) transforms.\relax }{figure.caption.18}{}}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\citation{pahlavan2005wireless}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces Jakes Doppler spectrum\nobreakspace  {}\cite  {pahlavan2005wireless} for a non-line-of-sight (a) and line-of-sight (b) transmission. Horizontal axis is normalized frequency, and frequency offset is maximal at $\pm f_M$, or movement directly away from and towards the receiver. The impulse in (b) indicates the Doppler shift associated with the line-of-sight ray.\relax }}{18}{figure.caption.19}}
+\newlabel{fig:jakes}{{2.11}{18}{Jakes Doppler spectrum~\cite {pahlavan2005wireless} for a non-line-of-sight (a) and line-of-sight (b) transmission. Horizontal axis is normalized frequency, and frequency offset is maximal at $\pm f_M$, or movement directly away from and towards the receiver. The impulse in (b) indicates the Doppler shift associated with the line-of-sight ray.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.12}{\ignorespaces A series of impulse responses (\ref  {eq:multipathimpulse}) and their Fourier transforms\nobreakspace  {}\cite  {pahlavan2005wireless}. (a) shows a LOS experiment using a stationary radio transmit-receive pair in a stationary environment ($B_D=0 Hz$ see (\ref  {eq:doppspread})). (b) display results of LOS experiment using a stationary receiver, but mobile transmitter that moved randomly within a 12 meter radius of a fixed point, simulating a mobile user pacing on their telephone ($B_D=4.9 Hz$). (c) display results of an obstructed LOS (OLOS) experiment using stationary devices 4 meters apart, but with heavy pedestrian traffic around the transmitter ($B_D=5.7 Hz$). (d) display an OLOS experiment with stationary devices, but the transmitter is rotated at a rate of 2.5 rotations per second ($B_D=5.2 Hz$).\relax }}{19}{figure.caption.20}}
+\newlabel{fig:dopplers}{{2.12}{19}{A series of impulse responses (\ref {eq:multipathimpulse}) and their Fourier transforms~\cite {pahlavan2005wireless}. (a) shows a LOS experiment using a stationary radio transmit-receive pair in a stationary environment ($B_D=0 Hz$ see (\ref {eq:doppspread})). (b) display results of LOS experiment using a stationary receiver, but mobile transmitter that moved randomly within a 12 meter radius of a fixed point, simulating a mobile user pacing on their telephone ($B_D=4.9 Hz$). (c) display results of an obstructed LOS (OLOS) experiment using stationary devices 4 meters apart, but with heavy pedestrian traffic around the transmitter ($B_D=5.7 Hz$). (d) display an OLOS experiment with stationary devices, but the transmitter is rotated at a rate of 2.5 rotations per second ($B_D=5.2 Hz$).\relax }{figure.caption.20}{}}
+\citation{cosmic}
+\citation{cosmic}
+\citation{cosmic}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.4}Coupled Noise}{20}{subsection.2.1.4}}
+\@writefile{toc}{\contentsline {subsubsection}{Inter-modulation}{20}{section*.21}}
+\@writefile{toc}{\contentsline {subsubsection}{Crosstalk}{20}{section*.22}}
+\@writefile{toc}{\contentsline {subsubsection}{In-Band Interference}{20}{section*.23}}
+\@writefile{toc}{\contentsline {subsubsection}{Terrestrial Interference}{20}{section*.24}}
+\newlabel{terrestrial}{{2.1.4}{20}{Terrestrial Interference}{section*.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Industrial Noise}{20}{section*.25}}
+\@writefile{toc}{\contentsline {subsubsection}{Cosmic Noise}{20}{section*.26}}
+\newlabel{eq:synchrad}{{2.26}{20}{Cosmic Noise}{equation.2.1.26}{}}
+\citation{cmbr}
+\citation{cmbr}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces A plot\nobreakspace  {}\cite  {cmbr} of the intensity of the CMBR over frequency.\relax }}{21}{figure.caption.27}}
+\newlabel{fig:cmbr}{{2.13}{21}{A plot~\cite {cmbr} of the intensity of the CMBR over frequency.\relax }{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.5}Radio Front End}{21}{subsection.2.1.5}}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\@writefile{toc}{\contentsline {subsubsection}{Carrier Frequency Offset (CFO)}{22}{section*.28}}
+\newlabel{cfo}{{2.1.5}{22}{Carrier Frequency Offset (CFO)}{section*.28}{}}
+\newlabel{eq:fo}{{2.27}{22}{Carrier Frequency Offset (CFO)}{equation.2.1.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.14}{\ignorespaces An illustration\nobreakspace  {}\cite  {rappaport1996wireless} of the base-band signal $m(t)$ being up-converted to the intermediate frequency $f_c$ by a mixer, where the carrier wave-form $A_c cos(2\pi f_c t)$ is generated by a local oscillator, and in this case half of the signal's bandwidth is filtered out (see Figure\nobreakspace  {}\ref  {fig:upconv} for a double side-band plots of the base-band spectrum of $m(t)$ and the up-converted spectrum of a $S_{DSB}(t)$.\relax }}{23}{figure.caption.29}}
+\newlabel{fig:mixer}{{2.14}{23}{An illustration~\cite {rappaport1996wireless} of the base-band signal $m(t)$ being up-converted to the intermediate frequency $f_c$ by a mixer, where the carrier wave-form $A_c cos(2\pi f_c t)$ is generated by a local oscillator, and in this case half of the signal's bandwidth is filtered out (see Figure~\ref {fig:upconv} for a double side-band plots of the base-band spectrum of $m(t)$ and the up-converted spectrum of a $S_{DSB}(t)$.\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces A plot\nobreakspace  {}\cite  {rappaport1996wireless} of (a) the base-band magnitude spectrum $|M(f)|$ of $m(t)$ (see Figure\nobreakspace  {}\ref  {fig:mixer}), and (b) its up-converted double side-band magnitude spectrum $|S_{AM}(f)|$.\relax }}{23}{figure.caption.30}}
+\newlabel{fig:upconv}{{2.15}{23}{A plot~\cite {rappaport1996wireless} of (a) the base-band magnitude spectrum $|M(f)|$ of $m(t)$ (see Figure~\ref {fig:mixer}), and (b) its up-converted double side-band magnitude spectrum $|S_{AM}(f)|$.\relax }{figure.caption.30}{}}
+\citation{pahlavan2005wireless}
+\@writefile{toc}{\contentsline {subsubsection}{Phase Ambiguity}{24}{section*.31}}
+\newlabel{phaseam}{{2.1.5}{24}{Phase Ambiguity}{section*.31}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Symbol Timing Offset (STO)}{24}{section*.32}}
+\newlabel{sto}{{2.1.5}{24}{Symbol Timing Offset (STO)}{section*.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces \relax }}{24}{figure.caption.33}}
+\newlabel{fig:stoin}{{2.16}{24}{\relax }{figure.caption.33}{}}
+\citation{n210sbx}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.17}{\ignorespaces \relax }}{25}{figure.caption.34}}
+\newlabel{fig:stoin}{{2.17}{25}{\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.18}{\ignorespaces \relax }}{25}{figure.caption.35}}
+\newlabel{fig:stoin}{{2.18}{25}{\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.19}{\ignorespaces \relax }}{25}{figure.caption.36}}
+\newlabel{fig:stoin}{{2.19}{25}{\relax }{figure.caption.36}{}}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\@writefile{toc}{\contentsline {subsubsection}{IQ Imbalance}{26}{section*.37}}
+\newlabel{iq}{{2.1.5}{26}{IQ Imbalance}{section*.37}{}}
+\newlabel{eq:iqimbal}{{2.28}{26}{IQ Imbalance}{equation.2.1.28}{}}
+\citation{quant}
+\citation{quant}
+\citation{quant}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.20}{\ignorespaces An illustration\nobreakspace  {}\cite  {rappaport1996wireless} of the in-phase and quadrature paths of the modulator block in a RFFE (see Figure\nobreakspace  {}\ref  {fig:fulltxrx}). The signals $\mathaccentV {dot}05F{m}(t), m(t)$ may not experience the same gains or appropriate phases of 0 and 90 degrees (\ref  {eq:iqimbal}).\relax }}{27}{figure.caption.38}}
+\newlabel{fig:sinecosine}{{2.20}{27}{An illustration~\cite {rappaport1996wireless} of the in-phase and quadrature paths of the modulator block in a RFFE (see Figure~\ref {fig:fulltxrx}). The signals $\dot {m}(t), m(t)$ may not experience the same gains or appropriate phases of 0 and 90 degrees (\ref {eq:iqimbal}).\relax }{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Quantization}{27}{section*.39}}
+\newlabel{quant}{{2.1.5}{27}{Quantization}{section*.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.21}{\ignorespaces Three plots\nobreakspace  {}\cite  {quant} describing an example of the effects of quantization error on a section of a ramp signal, (left) sine wave, (middle) and noisy wave-form (right). These plots have a digital resolution of one, all wave-forms can only be represented by a zero value, one, two, or three.\relax }}{28}{figure.caption.40}}
+\newlabel{fig:quant}{{2.21}{28}{Three plots~\cite {quant} describing an example of the effects of quantization error on a section of a ramp signal, (left) sine wave, (middle) and noisy wave-form (right). These plots have a digital resolution of one, all wave-forms can only be represented by a zero value, one, two, or three.\relax }{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Electronic Noise}{28}{section*.41}}
+\newlabel{enoise}{{2.1.5}{28}{Electronic Noise}{section*.41}{}}
+\newlabel{eq;thermnoise}{{2.29}{28}{Electronic Noise}{equation.2.1.29}{}}
+\newlabel{eq:thermpower}{{2.30}{28}{Electronic Noise}{equation.2.1.30}{}}
+\newlabel{eq:shot}{{2.31}{29}{Electronic Noise}{equation.2.1.31}{}}
+\newlabel{eq:flickerIIR}{{2.32}{29}{Electronic Noise}{equation.2.1.32}{}}
+\newlabel{eq:IIRdef}{{2.33}{30}{Electronic Noise}{equation.2.1.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.22}{\ignorespaces A section of a time-domain square wave-form formulated by summing cosines. While the states of the square wave-form aims to have values of negative and positive one, there are large deviations near high-definition edges, and small ripples in flat sections. If unlucky, these analog deviations can sum to mV values.\relax }}{31}{figure.caption.42}}
+\newlabel{fig:gibbs}{{2.22}{31}{A section of a time-domain square wave-form formulated by summing cosines. While the states of the square wave-form aims to have values of negative and positive one, there are large deviations near high-definition edges, and small ripples in flat sections. If unlucky, these analog deviations can sum to mV values.\relax }{figure.caption.42}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Training Deep Learning}{32}{section.2.2}}
+\newlabel{training}{{2.2}{32}{Training Deep Learning}{section.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Linear Classification}{32}{subsection.2.2.1}}
+\newlabel{linclass}{{2.2.1}{32}{Linear Classification}{subsection.2.2.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{The Neuron Analogy}{32}{section*.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.23}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of a biological neuron. A neuron cell is composed of a nucleus which receives signals from many dendrites. The amount of influence a dendrite has on a neuron is determined by synapses. When the sum of incoming signals is above a threshold, the nucleus fires a signal down its axon, which in turn splits into many dendrites, feeding into other neurons.\relax }}{33}{figure.caption.44}}
+\newlabel{fig:sub:cell}{{2.23}{33}{An illustration~\cite {cs231} of a biological neuron. A neuron cell is composed of a nucleus which receives signals from many dendrites. The amount of influence a dendrite has on a neuron is determined by synapses. When the sum of incoming signals is above a threshold, the nucleus fires a signal down its axon, which in turn splits into many dendrites, feeding into other neurons.\relax }{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.24}{\ignorespaces A mathematical representation\nobreakspace  {}\cite  {cs231} of Figure\nobreakspace  {}\ref  {fig:sub:cell}. The previous neurons' axons carry the signals $x_0, x_1, x_2$, which split into many dendrites. Synapses influence that value by a weight, ($w_0, w_1, w_2$). The cell body adds weights to each incoming dendrite ($b_0, b_1, b_2$), computes the dot product of all dendrites, and outputs a signal on its axon defined as the output of some activation function $f$ whose input is the dot product.\relax }}{33}{figure.caption.45}}
+\newlabel{fig:sub:neuron}{{2.24}{33}{A mathematical representation~\cite {cs231} of Figure~\ref {fig:sub:cell}. The previous neurons' axons carry the signals $x_0, x_1, x_2$, which split into many dendrites. Synapses influence that value by a weight, ($w_0, w_1, w_2$). The cell body adds weights to each incoming dendrite ($b_0, b_1, b_2$), computes the dot product of all dendrites, and outputs a signal on its axon defined as the output of some activation function $f$ whose input is the dot product.\relax }{figure.caption.45}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Multi-class Support Vector Machine (SVM)}{33}{section*.46}}
+\newlabel{eq:svm}{{2.34}{33}{Multi-class Support Vector Machine (SVM)}{equation.2.2.34}{}}
+\citation{cs231}
+\citation{cs231}
+\newlabel{eq:svmexample}{{2.35}{34}{Multi-class Support Vector Machine (SVM)}{equation.2.2.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.25}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of reducing $W \in [3,4 ]$ and $b \in [3,1 ]$ into a single matrix, $W \in [3,5 ]$ by adding a unit value to the end of $x_i \in [5,1 ]$.\relax }}{34}{figure.caption.47}}
+\newlabel{fig:wb}{{2.25}{34}{An illustration~\cite {cs231} of reducing $W \in \lbrack 3,4 \rbrack $ and $b \in \lbrack 3,1 \rbrack $ into a single matrix, $W \in \lbrack 3,5 \rbrack $ by adding a unit value to the end of $x_i \in \lbrack 5,1 \rbrack $.\relax }{figure.caption.47}{}}
+\newlabel{eq:svmvector}{{2.36}{34}{Multi-class Support Vector Machine (SVM)}{equation.2.2.36}{}}
+\citation{cs231}
+\newlabel{eq:regpen}{{2.37}{35}{Multi-class Support Vector Machine (SVM)}{equation.2.2.37}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Soft-Max Classifier}{35}{section*.48}}
+\newlabel{eq:softmax}{{2.39}{35}{Soft-Max Classifier}{equation.2.2.39}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\newlabel{eq:probsoftmax}{{2.40}{36}{Soft-Max Classifier}{equation.2.2.40}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Validation}{36}{section*.50}}
+\newlabel{valid}{{2.2.1}{36}{Validation}{section*.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.26}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of the computation of class cores $f$ and the resulting loss score $L_i$ using both SVM and soft-max functions. Both use the same class scores $f$, but have very different interpretations of their results, 1.58 and 1.04. The SVM considers each incorrect score less than a margin below the correct score as a contributor to loss, while the soft-max classifier relays a value proportional to the belief that the label assigned to each signal is correct.\relax }}{37}{figure.caption.49}}
+\newlabel{fig:svmvssoftmax}{{2.26}{37}{An illustration~\cite {cs231} of the computation of class cores $f$ and the resulting loss score $L_i$ using both SVM and soft-max functions. Both use the same class scores $f$, but have very different interpretations of their results, 1.58 and 1.04. The SVM considers each incorrect score less than a margin below the correct score as a contributor to loss, while the soft-max classifier relays a value proportional to the belief that the label assigned to each signal is correct.\relax }{figure.caption.49}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.27}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of common data splits between training, validation, and testing data. In this image, validation is performed on fold 5, training on folds 1-4, and testing on the rest. Next, fold 1 would be used as validation data, and folds 2-5 as training data, and so on, until all 5 folds have been used as the validation data.\relax }}{39}{figure.caption.51}}
+\newlabel{fig:crossval}{{2.27}{39}{An illustration~\cite {cs231} of common data splits between training, validation, and testing data. In this image, validation is performed on fold 5, training on folds 1-4, and testing on the rest. Next, fold 1 would be used as validation data, and folds 2-5 as training data, and so on, until all 5 folds have been used as the validation data.\relax }{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Stochastic Gradient Descent (SGD)}{39}{section*.52}}
+\newlabel{eq:centdiffform}{{2.41}{39}{Stochastic Gradient Descent (SGD)}{equation.2.2.41}{}}
+\newlabel{eq:gradient}{{2.42}{39}{Stochastic Gradient Descent (SGD)}{equation.2.2.42}{}}
+\citation{cs231}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.28}{\ignorespaces An example SVM loss function\nobreakspace  {}\cite  {cs231} plotted against two weights. Red represents high loss, blue low loss. Each of the two axis represent values assigned to a weight. In practice, loss functions have pockets of local minima/maxima, and cannot be visualized due to the number of dimensions required to represent each weight used.\relax }}{40}{figure.caption.53}}
+\newlabel{fig:svmlossgrad}{{2.28}{40}{An example SVM loss function~\cite {cs231} plotted against two weights. Red represents high loss, blue low loss. Each of the two axis represent values assigned to a weight. In practice, loss functions have pockets of local minima/maxima, and cannot be visualized due to the number of dimensions required to represent each weight used.\relax }{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.29}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of an SVM loss function's gradient vector (\ref  {eq:gradient}) for a two-weight linear classifier. Red represents high loss, blue low loss. The white circle represents the current values chosen for weights $w_o, w_1$, the white arrow the gradients unit vector, and the dashed line an extension of that gradient. Updating the weights by too much will put the weights in perhaps a higher loss section of the graph, but updating by too little will be computationally expensive and perhaps get the SGD stuck in a local minimum of the SVM loss function.\relax }}{41}{figure.caption.54}}
+\newlabel{fig:updatetoomuch}{{2.29}{41}{An illustration~\cite {cs231} of an SVM loss function's gradient vector (\ref {eq:gradient}) for a two-weight linear classifier. Red represents high loss, blue low loss. The white circle represents the current values chosen for weights $w_o, w_1$, the white arrow the gradients unit vector, and the dashed line an extension of that gradient. Updating the weights by too much will put the weights in perhaps a higher loss section of the graph, but updating by too little will be computationally expensive and perhaps get the SGD stuck in a local minimum of the SVM loss function.\relax }{figure.caption.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.30}{\ignorespaces The in-phase components of one positive and one negative QPSK symbol, up-sampled to 16 SPS by a Raised-Root Cosine (RRC) filter with a roll-off coefficient of 0.35. Making up half the values of an example flattened training signal vector $x_i$, classification decisions of a linear classifier using this signal would likely depend most heavily on samples surrounding the 60th and 80th sample, as they most strongly correlate to what bits are being transmitted. As a result, weights corresponding to those samples would likely be pushed to higher values during SGD.\relax }}{42}{figure.caption.55}}
+\newlabel{fig:rrc}{{2.30}{42}{The in-phase components of one positive and one negative QPSK symbol, up-sampled to 16 SPS by a Raised-Root Cosine (RRC) filter with a roll-off coefficient of 0.35. Making up half the values of an example flattened training signal vector $x_i$, classification decisions of a linear classifier using this signal would likely depend most heavily on samples surrounding the 60th and 80th sample, as they most strongly correlate to what bits are being transmitted. As a result, weights corresponding to those samples would likely be pushed to higher values during SGD.\relax }{figure.caption.55}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Parameter Updates}{42}{section*.56}}
+\citation{cs231}
+\citation{n_moment}
+\citation{adagrad}
+\newlabel{eq:mom}{{2.44}{43}{Parameter Updates}{equation.2.2.44}{}}
+\newlabel{eq:nmom}{{2.45}{43}{Parameter Updates}{equation.2.2.45}{}}
+\citation{cs231}
+\citation{adam}
+\citation{cs231}
+\citation{adagrad}
+\newlabel{eq:adagrad}{{2.46}{44}{Parameter Updates}{equation.2.2.46}{}}
+\newlabel{eq:adam}{{2.47}{44}{Parameter Updates}{equation.2.2.47}{}}
+\citation{cs231}
+\citation{cs231}
+\@writefile{toc}{\contentsline {subsubsection}{Back-Propagation}{45}{section*.57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.31}{\ignorespaces A circuit model\nobreakspace  {}\cite  {cs231} showing the forward pass (green) by applying inputs to the gates operators and backward pass (red) by applying the chain rule recursively. Gates represent a few local operations done by a linear classifier's neurons. Gates can do both passes totally independent of other gates, without knowledge of the full circuit, or classifier structure.\relax }}{45}{figure.caption.58}}
+\newlabel{fig:backprop}{{2.31}{45}{A circuit model~\cite {cs231} showing the forward pass (green) by applying inputs to the gates operators and backward pass (red) by applying the chain rule recursively. Gates represent a few local operations done by a linear classifier's neurons. Gates can do both passes totally independent of other gates, without knowledge of the full circuit, or classifier structure.\relax }{figure.caption.58}{}}
+\citation{weightinit,cs231}
+\citation{cs231}
+\@writefile{toc}{\contentsline {subsubsection}{Weight Initialization}{46}{section*.59}}
+\newlabel{eq:variance}{{2.48}{46}{Weight Initialization}{equation.2.2.48}{}}
+\@writefile{toc}{\contentsline {subsubsection}{The Activation Function}{46}{section*.60}}
+\newlabel{eq:sig}{{2.49}{46}{The Activation Function}{equation.2.2.49}{}}
+\citation{Krizhevsky:2012:ICD:2999134.2999257}
+\citation{cs231}
+\citation{cs231}
+\citation{DBLP:journals/corr/HeZR015}
+\newlabel{eq:tanh}{{2.50}{47}{The Activation Function}{equation.2.2.50}{}}
+\newlabel{eq:relu}{{2.51}{47}{The Activation Function}{equation.2.2.51}{}}
+\newlabel{eq:relugrad}{{2.52}{47}{The Activation Function}{equation.2.2.52}{}}
+\newlabel{eq:leakyrelu}{{2.53}{47}{The Activation Function}{equation.2.2.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.32}{\ignorespaces A circuit model\nobreakspace  {}\cite  {cs231} showing the forward pass (green) by applying inputs to the gates operators and backward pass (red) by applying the chain rule recursively of a circuit featuring a ReLU max gate. The blacked out $w$ weight would cause all gates before it to have a gradient of zero, killing those neurons. Using (\ref  {eq:gradient}), the back pass value for $w$ can be shown to be $w = 1 \times \frac  {\delta }{\delta a}2a \times \frac  {\delta }{\delta r}(r+p) \times \frac  {\delta }{\delta w}\qopname  \relax m{max}(w,z) = 1 \times 2 \times 1 \times 0 = 0$\relax }}{48}{figure.caption.61}}
+\newlabel{fig:relucircuit}{{2.32}{48}{A circuit model~\cite {cs231} showing the forward pass (green) by applying inputs to the gates operators and backward pass (red) by applying the chain rule recursively of a circuit featuring a ReLU max gate. The blacked out $w$ weight would cause all gates before it to have a gradient of zero, killing those neurons. Using (\ref {eq:gradient}), the back pass value for $w$ can be shown to be $w = 1 \times \frac {\delta }{\delta a}2a \times \frac {\delta }{\delta r}(r+p) \times \frac {\delta }{\delta w}\max (w,z) = 1 \times 2 \times 1 \times 0 = 0$\relax }{figure.caption.61}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Data Pre-Processing}{48}{section*.62}}
+\citation{cs231}
+\citation{pca}
+\newlabel{eq:pca}{{2.54}{49}{Data Pre-Processing}{equation.2.2.54}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{uniapproxim}
+\citation{universalapproxarticle}
+\citation{universalapproxarticle}
+\citation{universalapproxarticle}
+\citation{uniapproxim}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Designing a Neural Network Architecture}{50}{subsection.2.2.2}}
+\newlabel{NNdesign}{{2.2.2}{50}{Designing a Neural Network Architecture}{subsection.2.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Neural Network Organization}{50}{section*.63}}
+\@writefile{toc}{\contentsline {subsubsection}{Neural Networks: a Universal Approximator}{50}{section*.65}}
+\citation{universalapproxarticle}
+\citation{universalapproxarticle}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.33}{\ignorespaces A three-layer\nobreakspace  {}\cite  {cs231} neural network with two fully-connected hidden layers. Each hidden layer has four neurons, and the input has three samples. As shown in Section\nobreakspace  {}\ref  {cnn}, not all architectures use fully connected layers, and for good reason.\relax }}{51}{figure.caption.64}}
+\newlabel{fig:threelayernn}{{2.33}{51}{A three-layer~\cite {cs231} neural network with two fully-connected hidden layers. Each hidden layer has four neurons, and the input has three samples. As shown in Section~\ref {cnn}, not all architectures use fully connected layers, and for good reason.\relax }{figure.caption.64}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Convolutional Neural Networks}{51}{subsection.2.2.3}}
+\newlabel{cnn}{{2.2.3}{51}{Convolutional Neural Networks}{subsection.2.2.3}{}}
+\citation{cs231}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.34}{\ignorespaces A diagram from\nobreakspace  {}\cite  {universalapproxarticle}. Focusing on the top neuron, the output (shown) is computed as the sigmoid (\ref  {eq:sig}) of the dot product (see Figure\nobreakspace  {}\ref  {fig:sub:neuron}) of all its inputs, in this case the one input. $w$ shapes the transient part of the output, while $b$ places it. The function saturates at zero and one.\relax }}{52}{figure.caption.66}}
+\newlabel{fig:simpleapprox}{{2.34}{52}{A diagram from~\cite {universalapproxarticle}. Focusing on the top neuron, the output (shown) is computed as the sigmoid (\ref {eq:sig}) of the dot product (see Figure~\ref {fig:sub:neuron}) of all its inputs, in this case the one input. $w$ shapes the transient part of the output, while $b$ places it. The function saturates at zero and one.\relax }{figure.caption.66}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.35}{\ignorespaces A diagram from\nobreakspace  {}\cite  {universalapproxarticle}. With each additional neuron in the hidden layer, the sum of sigmoids at the neuron in the subsequent layer is a closer approximation of our cartoon of a complex function.\relax }}{53}{figure.caption.67}}
+\newlabel{fig:functionapprox}{{2.35}{53}{A diagram from~\cite {universalapproxarticle}. With each additional neuron in the hidden layer, the sum of sigmoids at the neuron in the subsequent layer is a closer approximation of our cartoon of a complex function.\relax }{figure.caption.67}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.36}{\ignorespaces A comparable CNN\nobreakspace  {}\cite  {cs231} to the linear classifier in Figure\nobreakspace  {}\ref  {fig:threelayernn}. Convolutional layers are three-dimensional, and only the last few layers are fully connected. The rest of the CNN is much more sparsely connected in an effort to reduce over-fitting and computational cost.\relax }}{54}{figure.caption.68}}
+\newlabel{fig:cnn}{{2.36}{54}{A comparable CNN~\cite {cs231} to the linear classifier in Figure~\ref {fig:threelayernn}. Convolutional layers are three-dimensional, and only the last few layers are fully connected. The rest of the CNN is much more sparsely connected in an effort to reduce over-fitting and computational cost.\relax }{figure.caption.68}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\@writefile{toc}{\contentsline {subsubsection}{The Third Dimension}{55}{section*.69}}
+\newlabel{eq:outsize}{{2.55}{55}{The Third Dimension}{equation.2.2.55}{}}
+\citation{cs231}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.37}{\ignorespaces Two convolution computations\nobreakspace  {}\cite  {cs231} applied to an input (blue) of size $W=5$, filters (red) of size $F=3$, zero-padding (gray) $P=1$, and stride $S=2$. Through (\ref  {eq:outsize}), we obtain the output matrix (green) height/width $(5-3+2\times 1)/2+1=3$ of depth two due to using two filters for an output shape $\in [3,3,2]$. The value $3$ is computed as the sum of all highlighted convolutions $x\circledast w0$, plus the bias $b0$.\relax }}{56}{figure.caption.70}}
+\newlabel{fig:filter}{{2.37}{56}{Two convolution computations~\cite {cs231} applied to an input (blue) of size $W=5$, filters (red) of size $F=3$, zero-padding (gray) $P=1$, and stride $S=2$. Through (\ref {eq:outsize}), we obtain the output matrix (green) height/width $(5-3+2\times 1)/2+1=3$ of depth two due to using two filters for an output shape $\in [3,3,2]$. The value $3$ is computed as the sum of all highlighted convolutions $x\circledast w0$, plus the bias $b0$.\relax }{figure.caption.70}{}}
+\citation{lenet}
+\citation{imagenet}
+\citation{zfnet}
+\citation{googlenet}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.38}{\ignorespaces Max pooling\nobreakspace  {}\cite  {cs231} of a 244 by 244 pixel image. Input size $W$ is 224, filter size $F$ is two, stride $S$ is two for an output shape (\ref  {eq:outsize}) of $(224-2+2\times 0)/2+1=112$. Depth is maintained.\relax }}{57}{figure.caption.71}}
+\newlabel{fig:pool}{{2.38}{57}{Max pooling~\cite {cs231} of a 244 by 244 pixel image. Input size $W$ is 224, filter size $F$ is two, stride $S$ is two for an output shape (\ref {eq:outsize}) of $(224-2+2\times 0)/2+1=112$. Depth is maintained.\relax }{figure.caption.71}{}}
+\citation{vggnet}
+\citation{resnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.39}{\ignorespaces A ConvNet architecture\nobreakspace  {}\cite  {cs231} that takes raw image pixel values as input, and outputs a five-element fully-connected layer, where each value corresponds to the CNN's belief that the raw image belongs to a label. In this case, the image is likely a car.\relax }}{58}{figure.caption.72}}
+\newlabel{fig:convnet}{{2.39}{58}{A ConvNet architecture~\cite {cs231} that takes raw image pixel values as input, and outputs a five-element fully-connected layer, where each value corresponds to the CNN's belief that the raw image belongs to a label. In this case, the image is likely a car.\relax }{figure.caption.72}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Regularization}{58}{section*.73}}
+\citation{dropout}
+\citation{cs231}
+\citation{cs231}
+\citation{cs231}
+\citation{bayesian}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Novel Training Methods: Bayesian Optimization}{59}{subsection.2.2.4}}
+\newlabel{bayesian}{{2.2.4}{59}{Novel Training Methods: Bayesian Optimization}{subsection.2.2.4}{}}
+\newlabel{eq:bayesianfun}{{2.56}{59}{Novel Training Methods: Bayesian Optimization}{equation.2.2.56}{}}
+\citation{bayesian}
+\citation{bayesian}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.40}{\ignorespaces An illustration\nobreakspace  {}\cite  {cs231} of the last few layers of a linear classifier before (a) and after (b) dropout layers are implemented. Arrows represent connections between neurons, while neurons with x's through them represent neuron connections terminated by being dropped out.\relax }}{60}{figure.caption.74}}
+\newlabel{fig:drop}{{2.40}{60}{An illustration~\cite {cs231} of the last few layers of a linear classifier before (a) and after (b) dropout layers are implemented. Arrows represent connections between neurons, while neurons with x's through them represent neuron connections terminated by being dropped out.\relax }{figure.caption.74}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Parametric Models}{60}{section*.76}}
+\citation{bayesian}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.41}{\ignorespaces An illustration\nobreakspace  {}\cite  {bayesian} of three time iterations of (\ref  {eq:bayesianfun}). The black line is the estimated objective or loss function $f$, while the dashed black line is the true $f$ (unknown but visualized). The acquisition function $\alpha $ is in green, whose maxima are highlighted with red arrows, indicating either exploration (when uncertainty $\sigma (\cdot )$, blue, is large) or exploitation (model prediction is high, solid and dashed black lines match). Observations $x_n$ are marked as black dots, with the new observations in the n=3 and n=4 sub-figures highlighted in red. Notice how new observations reduce uncertainty, and are first taken at high value points (right skewed) to maximize impact on acquisition function reduction.\relax }}{61}{figure.caption.75}}
+\newlabel{fig:bayesianill}{{2.41}{61}{An illustration~\cite {bayesian} of three time iterations of (\ref {eq:bayesianfun}). The black line is the estimated objective or loss function $f$, while the dashed black line is the true $f$ (unknown but visualized). The acquisition function $\alpha $ is in green, whose maxima are highlighted with red arrows, indicating either exploration (when uncertainty $\sigma (\cdot )$, blue, is large) or exploitation (model prediction is high, solid and dashed black lines match). Observations $x_n$ are marked as black dots, with the new observations in the n=3 and n=4 sub-figures highlighted in red. Notice how new observations reduce uncertainty, and are first taken at high value points (right skewed) to maximize impact on acquisition function reduction.\relax }{figure.caption.75}{}}
+\newlabel{eq:bayesrule}{{2.57}{61}{Parametric Models}{equation.2.2.57}{}}
+\newlabel{eq:betabandit}{{2.58}{62}{Parametric Models}{equation.2.2.58}{}}
+\newlabel{eq:bernoulliex}{{2.59}{62}{Parametric Models}{equation.2.2.59}{}}
+\newlabel{eq:betaex}{{2.60}{62}{Parametric Models}{equation.2.2.60}{}}
+\newlabel{eq:posteriori}{{2.61}{62}{Parametric Models}{equation.2.2.61}{}}
+\citation{matern}
+\newlabel{eq:picknextarm}{{2.62}{63}{Parametric Models}{equation.2.2.62}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Non-Parametric Models}{63}{section*.77}}
+\newlabel{eq:kernel}{{2.63}{63}{Non-Parametric Models}{equation.2.2.63}{}}
+\newlabel{eq:noparamposterior}{{2.64}{63}{Non-Parametric Models}{equation.2.2.64}{}}
+\citation{bayesian}
+\citation{distill}
+\citation{distill}
+\citation{distill}
+\citation{distdefense}
+\newlabel{eq:matern}{{2.65}{64}{Non-Parametric Models}{equation.2.2.65}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Novel Training Methods: Distillation}{64}{subsection.2.2.5}}
+\newlabel{distill}{{2.2.5}{64}{Novel Training Methods: Distillation}{subsection.2.2.5}{}}
+\newlabel{eq:tempsoftmax}{{2.66}{64}{Novel Training Methods: Distillation}{equation.2.2.66}{}}
+\citation{gan}
+\citation{fooled}
+\citation{fooled}
+\citation{fooled}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.6}Novel Training Methods: Generative Adversarial Network (GAN)}{65}{subsection.2.2.6}}
+\newlabel{gan}{{2.2.6}{65}{Novel Training Methods: Generative Adversarial Network (GAN)}{subsection.2.2.6}{}}
+\citation{gan}
+\citation{gan}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.42}{\ignorespaces A series of decoy images\nobreakspace  {}\cite  {fooled} fooling a computer vision classifier. Most images fail to remotely resemble their target label, however due to the brittle nature of training neural networks with standard back-pass techniques, small movements in feature-space at evaluation time can have significant and catastrophic results.\relax }}{66}{figure.caption.78}}
+\newlabel{fig:fooled}{{2.42}{66}{A series of decoy images~\cite {fooled} fooling a computer vision classifier. Most images fail to remotely resemble their target label, however due to the brittle nature of training neural networks with standard back-pass techniques, small movements in feature-space at evaluation time can have significant and catastrophic results.\relax }{figure.caption.78}{}}
+\citation{gan}
+\citation{gan}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.43}{\ignorespaces A flow diagram\nobreakspace  {}\cite  {gan} of a GAN process. Synthetic data samples are added to data samples observed by the discriminator.\relax }}{67}{figure.caption.79}}
+\newlabel{fig:gan}{{2.43}{67}{A flow diagram~\cite {gan} of a GAN process. Synthetic data samples are added to data samples observed by the discriminator.\relax }{figure.caption.79}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.44}{\ignorespaces A flow diagram\nobreakspace  {}\cite  {gan} describing the SGD (\ref  {eq:gradient}) feedback loop between the generator and discriminator (see Figure\nobreakspace  {}\ref  {fig:gan}). Parameter updates continue until the learning capacity of the networks are reached and classification accuracy of the discriminator reaches a steady state value $\in (0.5, 1)$.\relax }}{67}{figure.caption.80}}
+\newlabel{fig:coregan}{{2.44}{67}{A flow diagram~\cite {gan} describing the SGD (\ref {eq:gradient}) feedback loop between the generator and discriminator (see Figure~\ref {fig:gan}). Parameter updates continue until the learning capacity of the networks are reached and classification accuracy of the discriminator reaches a steady state value $\in (0.5, 1)$.\relax }{figure.caption.80}{}}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptadversarial}
+\citation{drcn}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.7}Novel Training Methods: Domain Adaptation}{68}{subsection.2.2.7}}
+\newlabel{domainadapt}{{2.2.7}{68}{Novel Training Methods: Domain Adaptation}{subsection.2.2.7}{}}
+\newlabel{eq:genloss}{{2.67}{68}{Novel Training Methods: Domain Adaptation}{equation.2.2.67}{}}
+\newlabel{eq:qc}{{2.68}{68}{Novel Training Methods: Domain Adaptation}{equation.2.2.68}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.45}{\ignorespaces A series of testing images and classification results\nobreakspace  {}\cite  {dadaptHRL}. A) Test image collected from real Cityscapes dataset. B) Identity mapped version of the image. C) Image translated to the target domain. D) Evaluation of translated image without domain adaptation. E) Evaluation of translated image using domain adaptation\nobreakspace  {}\cite  {dadaptHRL}. F) Translated image ground truth.\relax }}{69}{figure.caption.81}}
+\newlabel{fig:street}{{2.45}{69}{A series of testing images and classification results~\cite {dadaptHRL}. A) Test image collected from real Cityscapes dataset. B) Identity mapped version of the image. C) Image translated to the target domain. D) Evaluation of translated image without domain adaptation. E) Evaluation of translated image using domain adaptation~\cite {dadaptHRL}. F) Translated image ground truth.\relax }{figure.caption.81}{}}
+\citation{dadaptagnostic}
+\citation{dadaptcyc}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.46}{\ignorespaces A flow diagram\nobreakspace  {}\cite  {dadaptHRL} describing the various transforms $f_x, g_x, h, f_y, g_y$ and spaces $X$, $Z$, $Y$, $C$ and their interactions at the highest level in domain adaptation. The field is motivated by scarcity of annotated real pictures, but has much wider applications. Implemented correctly, training of classifiers becomes highly generalizable, making testing well under conditions not trained under becomes very robust when domain adaptation is performed on a set of unlabeled data from the new target domain.\relax }}{70}{figure.caption.82}}
+\newlabel{fig:adaptflow}{{2.46}{70}{A flow diagram~\cite {dadaptHRL} describing the various transforms $f_x, g_x, h, f_y, g_y$ and spaces $X$, $Z$, $Y$, $C$ and their interactions at the highest level in domain adaptation. The field is motivated by scarcity of annotated real pictures, but has much wider applications. Implemented correctly, training of classifiers becomes highly generalizable, making testing well under conditions not trained under becomes very robust when domain adaptation is performed on a set of unlabeled data from the new target domain.\relax }{figure.caption.82}{}}
+\newlabel{eq:qid}{{2.69}{70}{Novel Training Methods: Domain Adaptation}{equation.2.2.69}{}}
+\newlabel{eq:qz}{{2.70}{70}{Novel Training Methods: Domain Adaptation}{equation.2.2.70}{}}
+\citation{dadaptcyc}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\citation{dadaptHRL}
+\newlabel{eq:qtr}{{2.71}{71}{Novel Training Methods: Domain Adaptation}{equation.2.2.71}{}}
+\newlabel{eq:qcyc}{{2.72}{71}{Novel Training Methods: Domain Adaptation}{equation.2.2.72}{}}
+\newlabel{eq:qtrc}{{2.73}{71}{Novel Training Methods: Domain Adaptation}{equation.2.2.73}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Modulation Classification}{71}{section.2.3}}
+\newlabel{modclass}{{2.3}{71}{Modulation Classification}{section.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Signal Modulation}{71}{subsection.2.3.1}}
+\newlabel{eq:modulate}{{2.74}{71}{Signal Modulation}{equation.2.3.74}{}}
+\citation{pahlavan2005wireless}
+\citation{mods}
+\citation{mods}
+\citation{pahlavan2005wireless}
+\citation{rappaport1996wireless}
+\citation{mods}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.47}{\ignorespaces An elaborated\nobreakspace  {}\cite  {dadaptHRL} flow diagram of Figure\nobreakspace  {}\ref  {fig:adaptflow}, describing additionally the various weighted loss functions $Q_c, Q_{id}, Q_z, Q_{tr}, Q_{cyc}, Q_{trc}$ and how they interact with each domain $X$, $Y$, and $Z$. See equations (\ref  {eq:qc}) through (\ref  {eq:qtrc}).\relax }}{72}{figure.caption.83}}
+\newlabel{fig:adapt}{{2.47}{72}{An elaborated~\cite {dadaptHRL} flow diagram of Figure~\ref {fig:adaptflow}, describing additionally the various weighted loss functions $Q_c, Q_{id}, Q_z, Q_{tr}, Q_{cyc}, Q_{trc}$ and how they interact with each domain $X$, $Y$, and $Z$. See equations (\ref {eq:qc}) through (\ref {eq:qtrc}).\relax }{figure.caption.83}{}}
+\newlabel{eq:demodulate}{{2.75}{72}{Signal Modulation}{equation.2.3.75}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Designing a Modulation Scheme}{72}{section*.85}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.48}{\ignorespaces A very high-level flow diagram\nobreakspace  {}\cite  {mods} describing the flow of information in a communications transmit-receive pair. Information begins as bits mapped to IQ points, is transformed into a voltage by a DAC, transduced into an electromagnetic wave by a transmitting antenna, travels through a noisy channel, is transduced back into a voltage by a receiving antenna, detected and transformed into IQ points with the help of a ADC, and finally mapped back to bits.\relax }}{73}{figure.caption.84}}
+\newlabel{fig:txrx}{{2.48}{73}{A very high-level flow diagram~\cite {mods} describing the flow of information in a communications transmit-receive pair. Information begins as bits mapped to IQ points, is transformed into a voltage by a DAC, transduced into an electromagnetic wave by a transmitting antenna, travels through a noisy channel, is transduced back into a voltage by a receiving antenna, detected and transformed into IQ points with the help of a ADC, and finally mapped back to bits.\relax }{figure.caption.84}{}}
+\newlabel{eq:mary}{{2.76}{73}{Designing a Modulation Scheme}{equation.2.3.76}{}}
+\citation{rappaport1996wireless}
+\citation{rappaport1996wireless}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\newlabel{eq:qpsk}{{2.77}{74}{Designing a Modulation Scheme}{equation.2.3.77}{}}
+\newlabel{eq:basisfun}{{2.78}{74}{Designing a Modulation Scheme}{equation.2.3.78}{}}
+\newlabel{eq:modeff}{{2.79}{74}{Designing a Modulation Scheme}{equation.2.3.79}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Modulation Classification}{74}{subsection.2.3.2}}
+\citation{modclassback}
+\citation{modclassback}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.49}{\ignorespaces A set of QPSK constellation points (\ref  {eq:qpsk}) for $E_s=4$. The horizontal axis is defined as $\phi _1(t)$ or the real valued element in a complex tuple, and the vertical axis as $\phi _2(t)$, traditionally represented as the imaginary valued element in a complex tuple. The resulting transformations are $n = 1 : b\rightarrow (0, 0) : s \rightarrow (2/\sqrt  {2}, 2/\sqrt  {2})$, $n = 2 : b\rightarrow (0, 1) : s \rightarrow (-2/\sqrt  {2}, 2/\sqrt  {2})$, $n = 3 : b\rightarrow (1, 0) : s \rightarrow (-2/\sqrt  {2}, -2/\sqrt  {2})$, and $n = 4 : b\rightarrow (1, 1) : s \rightarrow (2/\sqrt  {2}, -2/\sqrt  {2})$\relax }}{75}{figure.caption.86}}
+\newlabel{fig:qpskconst}{{2.49}{75}{A set of QPSK constellation points (\ref {eq:qpsk}) for $E_s=4$. The horizontal axis is defined as $\phi _1(t)$ or the real valued element in a complex tuple, and the vertical axis as $\phi _2(t)$, traditionally represented as the imaginary valued element in a complex tuple. The resulting transformations are $n = 1 : b\rightarrow (0, 0) : s \rightarrow (2/\sqrt {2}, 2/\sqrt {2})$, $n = 2 : b\rightarrow (0, 1) : s \rightarrow (-2/\sqrt {2}, 2/\sqrt {2})$, $n = 3 : b\rightarrow (1, 0) : s \rightarrow (-2/\sqrt {2}, -2/\sqrt {2})$, and $n = 4 : b\rightarrow (1, 1) : s \rightarrow (2/\sqrt {2}, -2/\sqrt {2})$\relax }{figure.caption.86}{}}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\citation{modclassback}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.50}{\ignorespaces A flow chart\nobreakspace  {}\cite  {modclassback} describing the forward pass (see Figure\nobreakspace  {}\ref  {fig:relucircuit}) of a set of eight input values through the CLDNN. A $[1,8]$ input vector is concatenated with values filtered through a $[1,8]$ filter in both the first and second convolutional layer. Each filter (see Figure\nobreakspace  {}\ref  {fig:filtresp}) contains eight weights and one bias value (see Figure\nobreakspace  {}\ref  {fig:filter} for example filters), which are calculated during SGD (\ref  {eq:gradient}). The Long Short-Term Memory (LSTM) cell holds the values for the soft-max classification layer.\relax }}{76}{figure.caption.87}}
+\newlabel{fig:cldnn}{{2.50}{76}{A flow chart~\cite {modclassback} describing the forward pass (see Figure~\ref {fig:relucircuit}) of a set of eight input values through the CLDNN. A $[1,8]$ input vector is concatenated with values filtered through a $[1,8]$ filter in both the first and second convolutional layer. Each filter (see Figure~\ref {fig:filtresp}) contains eight weights and one bias value (see Figure~\ref {fig:filter} for example filters), which are calculated during SGD (\ref {eq:gradient}). The Long Short-Term Memory (LSTM) cell holds the values for the soft-max classification layer.\relax }{figure.caption.87}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.51}{\ignorespaces The time-domain IQ plot\nobreakspace  {}\cite  {modclassback} of a $[2,128]$ output signal from the $[1,8]$ filter in Figure\nobreakspace  {}\ref  {fig:filtresp}. The signal input to the filter was random, but trained to maximally activate the filters eight weights. The result is a Binary Phase Shift Keying (BPSK) waveform, indicating that this filter was trained to maximize the eventual soft-max class scores of BPSK signals.\relax }}{77}{figure.caption.88}}
+\newlabel{fig:trainsig}{{2.51}{77}{The time-domain IQ plot~\cite {modclassback} of a $[2,128]$ output signal from the $[1,8]$ filter in Figure~\ref {fig:filtresp}. The signal input to the filter was random, but trained to maximally activate the filters eight weights. The result is a Binary Phase Shift Keying (BPSK) waveform, indicating that this filter was trained to maximize the eventual soft-max class scores of BPSK signals.\relax }{figure.caption.88}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.52}{\ignorespaces Time (top) and frequency (bottom) domain magnitude plots\nobreakspace  {}\cite  {modclassback} of a trained $[1,8]$ filter like those in Figure\nobreakspace  {}\ref  {fig:cldnn}. This filter's first, second, and seventh weights have the most influence on classification. See Figure\nobreakspace  {}\ref  {fig:trainsig} for another visualization of this filter.\relax }}{77}{figure.caption.89}}
+\newlabel{fig:filtresp}{{2.52}{77}{Time (top) and frequency (bottom) domain magnitude plots~\cite {modclassback} of a trained $[1,8]$ filter like those in Figure~\ref {fig:cldnn}. This filter's first, second, and seventh weights have the most influence on classification. See Figure~\ref {fig:trainsig} for another visualization of this filter.\relax }{figure.caption.89}{}}
+\citation{modclassback}
+\citation{modclassback}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.53}{\ignorespaces A confusion matrix\nobreakspace  {}\cite  {modclassback} describing the classification accuracy of the CLDNN on all test signals at evaluation time. The color gradient communicates classification accuracy averaged over SNR values ranging from -20 dB to 20dB. The horizontal axis displays the modulation scheme that the CLDNN classifies signals by, and the vertical axis the ground truth of those signals. A perfectly performing classifier would have a deep brown diagonal matrix, where each signal of each modulation type of each SNR is correctly classified by having the highest soft-max value at its index corresponding to the signals' ground truth label.\relax }}{78}{figure.caption.90}}
+\newlabel{fig:confmodclass}{{2.53}{78}{A confusion matrix~\cite {modclassback} describing the classification accuracy of the CLDNN on all test signals at evaluation time. The color gradient communicates classification accuracy averaged over SNR values ranging from -20 dB to 20dB. The horizontal axis displays the modulation scheme that the CLDNN classifies signals by, and the vertical axis the ground truth of those signals. A perfectly performing classifier would have a deep brown diagonal matrix, where each signal of each modulation type of each SNR is correctly classified by having the highest soft-max value at its index corresponding to the signals' ground truth label.\relax }{figure.caption.90}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Summary}{78}{section.2.4}}
+\@setckpt{chapter2}{
+\setcounter{page}{80}
+\setcounter{equation}{79}
+\setcounter{enumi}{5}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{2}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{53}
+\setcounter{table}{0}
+\setcounter{parentequation}{78}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lotdepth}{1}
+\setcounter{float@type}{8}
+\setcounter{r@tfl@t}{0}
+\setcounter{Item}{18}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{28}
+\setcounter{FancyVerbLine}{0}
+\setcounter{lstnumber}{23}
+\setcounter{section@level}{1}
+\setcounter{lstlisting}{0}
+}
