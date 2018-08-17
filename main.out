@@ -1,0 +1,57 @@
+\BOOKMARK [0][-]{chapter*.2}{List of Figures}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{List of Tables}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{State of the Art}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Current Issues}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Thesis Contributions}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{Thesis Organization}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.6}{List of Related Publications}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Classical Channel Models}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Additive White Gaussian Noise \(AWGN\)}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Path Loss}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{Doppler Shift}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{Coupled Noise}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.5}{Radio Front End}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Training Deep Learning}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Linear Classification}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Designing a Neural Network Architecture}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Convolutional Neural Networks}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.4}{Novel Training Methods: Bayesian Optimization}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.5}{Novel Training Methods: Distillation}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.6}{Novel Training Methods: Generative Adversarial Network \(GAN\)}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.7}{Novel Training Methods: Domain Adaptation}{section.2.2}% 24
+\BOOKMARK [1][-]{section.2.3}{Modulation Classification}{chapter.2}% 25
+\BOOKMARK [2][-]{subsection.2.3.1}{Signal Modulation}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.2}{Modulation Classification}{section.2.3}% 27
+\BOOKMARK [1][-]{section.2.4}{Summary}{chapter.2}% 28
+\BOOKMARK [0][-]{chapter.3}{Physical Layer Neural Network Framework for Training Data Formation}{}% 29
+\BOOKMARK [1][-]{section.3.1}{Abstract}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{Introduction}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{Proposed Framework}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Applications of Proposed Framework}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Simulations and Results}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 35
+\BOOKMARK [0][-]{chapter.4}{Domain Adaptation of Wireless Channels}{}% 36
+\BOOKMARK [1][-]{section.4.1}{test}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.2}{Summary}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Research Outcomes}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Future Work}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter*.99}{Bibliography}{}% 42
+\BOOKMARK [0][-]{appendix.A}{Data Synthesis Framework}{}% 43
+\BOOKMARK [1][-]{section.A.1}{Meta.py}{appendix.A}% 44
+\BOOKMARK [1][-]{section.A.2}{ChannelPush.py}{appendix.A}% 45
+\BOOKMARK [1][-]{section.A.3}{merge\137datasets.py}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.4}{upsampFilt.py}{appendix.A}% 47
+\BOOKMARK [1][-]{section.A.5}{Filtdownsamp.py}{appendix.A}% 48
+\BOOKMARK [1][-]{section.A.6}{Channel.py}{appendix.A}% 49
+\BOOKMARK [1][-]{section.A.7}{AWGNFriis.py}{appendix.A}% 50
+\BOOKMARK [1][-]{section.A.8}{STOresolution.py}{appendix.A}% 51
+\BOOKMARK [1][-]{section.A.9}{RandomInitialPhase.py}{appendix.A}% 52
+\BOOKMARK [1][-]{section.A.10}{IQimbalance.py}{appendix.A}% 53
+\BOOKMARK [1][-]{section.A.11}{CFO.py}{appendix.A}% 54
+\BOOKMARK [1][-]{section.A.12}{filters.py}{appendix.A}% 55
+\BOOKMARK [1][-]{section.A.13}{ChannelConfig\137ettusN210.ini}{appendix.A}% 56
+\BOOKMARK [1][-]{section.A.14}{merge\137config\1373IFs.ini}{appendix.A}% 57
