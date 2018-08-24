@@ -1,0 +1,90 @@
+\contentsline {chapter}{List of Figures}{vi}{chapter*.2}
+\contentsline {chapter}{List of Tables}{xiv}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}State of the Art}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Current Issues}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Thesis Contributions}{1}{section.1.4}
+\contentsline {section}{\numberline {1.5}Thesis Organization}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}List of Related Publications}{2}{section.1.6}
+\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Classical Channel Models}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Additive White Gaussian Noise (AWGN)}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Path Loss}{5}{subsection.2.1.2}
+\contentsline {subsubsection}{Narrow-Band Signal}{8}{section*.7}
+\contentsline {subsubsection}{Wide-Band Signal}{9}{section*.9}
+\contentsline {subsubsection}{Knife-Edge Diffraction Model}{10}{section*.11}
+\contentsline {subsubsection}{Topographical Path Loss Models}{11}{section*.13}
+\contentsline {subsubsection}{Just the Beginning: Fading}{12}{section*.16}
+\contentsline {subsection}{\numberline {2.1.3}Doppler Shift}{14}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Coupled Noise}{20}{subsection.2.1.4}
+\contentsline {subsubsection}{Inter-modulation}{20}{section*.21}
+\contentsline {subsubsection}{Crosstalk}{20}{section*.22}
+\contentsline {subsubsection}{Atmospheric Noise}{20}{section*.24}
+\contentsline {subsubsection}{Industrial Noise}{21}{section*.26}
+\contentsline {subsubsection}{Cosmic Noise}{22}{section*.28}
+\contentsline {subsection}{\numberline {2.1.5}Radio Front End}{24}{subsection.2.1.5}
+\contentsline {subsubsection}{Carrier Frequency Offset (CFO)}{25}{section*.30}
+\contentsline {subsubsection}{Phase Ambiguity}{26}{section*.33}
+\contentsline {subsubsection}{Symbol Timing Offset (STO)}{27}{section*.35}
+\contentsline {subsubsection}{IQ Imbalance}{29}{section*.40}
+\contentsline {subsubsection}{Quantization}{31}{section*.42}
+\contentsline {subsubsection}{Electronic Noise}{32}{section*.45}
+\contentsline {section}{\numberline {2.2}Training Deep Learning}{36}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Linear Classification}{36}{subsection.2.2.1}
+\contentsline {subsubsection}{The Neuron Analogy}{36}{section*.47}
+\contentsline {subsubsection}{Multi-class Support Vector Machine (SVM)}{37}{section*.50}
+\contentsline {subsubsection}{Soft-Max Classifier}{39}{section*.52}
+\contentsline {subsubsection}{Validation}{40}{section*.54}
+\contentsline {subsubsection}{Stochastic Gradient Descent (SGD)}{43}{section*.56}
+\contentsline {subsubsection}{Parameter Updates}{46}{section*.60}
+\contentsline {subsubsection}{Back-Propagation}{49}{section*.61}
+\contentsline {subsubsection}{Weight Initialization}{50}{section*.63}
+\contentsline {subsubsection}{The Activation Function}{50}{section*.64}
+\contentsline {subsubsection}{Data Pre-Processing}{52}{section*.66}
+\contentsline {subsection}{\numberline {2.2.2}Designing a Neural Network Architecture}{54}{subsection.2.2.2}
+\contentsline {subsubsection}{Neural Network Organization}{54}{section*.67}
+\contentsline {subsubsection}{Neural Networks: a Universal Approximator}{54}{section*.69}
+\contentsline {subsection}{\numberline {2.2.3}Convolutional Neural Networks}{55}{subsection.2.2.3}
+\contentsline {subsubsection}{The Third Dimension}{59}{section*.73}
+\contentsline {subsubsection}{Regularization}{62}{section*.77}
+\contentsline {subsection}{\numberline {2.2.4}Novel Training Methods: Bayesian Optimization}{63}{subsection.2.2.4}
+\contentsline {subsubsection}{Parametric Models}{64}{section*.80}
+\contentsline {subsubsection}{Non-Parametric Models}{67}{section*.81}
+\contentsline {subsection}{\numberline {2.2.5}Novel Training Methods: Distillation}{68}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Novel Training Methods: Generative Adversarial Network (GAN)}{69}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Novel Training Methods: Domain Adaptation}{72}{subsection.2.2.7}
+\contentsline {section}{\numberline {2.3}Modulation Classification}{75}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Signal Modulation}{75}{subsection.2.3.1}
+\contentsline {subsubsection}{Designing a Modulation Scheme}{76}{section*.89}
+\contentsline {subsection}{\numberline {2.3.2}Modulation Classification}{78}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Summary}{82}{section.2.4}
+\contentsline {chapter}{\numberline {3}Physical Layer Neural Network Framework for Training Data Formation}{84}{chapter.3}
+\contentsline {section}{\numberline {3.1}Abstract}{84}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{85}{section.3.2}
+\contentsline {section}{\numberline {3.3}Proposed Framework}{87}{section.3.3}
+\contentsline {section}{\numberline {3.4}Applications of Proposed Framework}{90}{section.3.4}
+\contentsline {section}{\numberline {3.5}Simulations and Results}{93}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusion}{96}{section.3.6}
+\contentsline {chapter}{\numberline {4}Domain Adaptation of Wireless Channels}{97}{chapter.4}
+\contentsline {section}{\numberline {4.1}test}{97}{section.4.1}
+\contentsline {section}{\numberline {4.2}Summary}{97}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion}{98}{chapter.5}
+\contentsline {section}{\numberline {5.1}Research Outcomes}{98}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Work}{98}{section.5.2}
+\contentsline {chapter}{Bibliography}{99}{chapter*.103}
+\contentsline {chapter}{\numberline {A}Data Synthesis Framework}{105}{appendix.A}
+\contentsline {section}{\numberline {A.1}Meta.py}{105}{section.A.1}
+\contentsline {section}{\numberline {A.2}ChannelPush.py}{107}{section.A.2}
+\contentsline {section}{\numberline {A.3}merge\_datasets.py}{112}{section.A.3}
+\contentsline {section}{\numberline {A.4}upsampFilt.py}{117}{section.A.4}
+\contentsline {section}{\numberline {A.5}Filtdownsamp.py}{120}{section.A.5}
+\contentsline {section}{\numberline {A.6}Channel.py}{123}{section.A.6}
+\contentsline {section}{\numberline {A.7}AWGNFriis.py}{125}{section.A.7}
+\contentsline {section}{\numberline {A.8}STOresolution.py}{129}{section.A.8}
+\contentsline {section}{\numberline {A.9}RandomInitialPhase.py}{134}{section.A.9}
+\contentsline {section}{\numberline {A.10}IQimbalance.py}{135}{section.A.10}
+\contentsline {section}{\numberline {A.11}CFO.py}{137}{section.A.11}
+\contentsline {section}{\numberline {A.12}filters.py}{139}{section.A.12}
+\contentsline {section}{\numberline {A.13}ChannelConfig\_ettusN210.ini}{144}{section.A.13}
+\contentsline {section}{\numberline {A.14}merge\_config\_3IFs.ini}{145}{section.A.14}

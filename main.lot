@@ -1,0 +1,8 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Example 2D Channel Object Matrix (refer to Figure\nobreakspace {}\ref {fig:channeltoolsub}). Objects are instances of run-time imported Carrier Frequency Offset (CFO) and Additive White Gaussian Noise (AWGN) Python classes. Instance variables of the objects are imported from the 3D characteristics matrix. Some characteristic sweeps should be linearly spaced (phase ambiguity in radians), and others log spaced (SNR of an AWGN model)\relax }}{88}{table.caption.96}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Examples of variations in computer vision image datasets, and a collection of analogies for their signal domain parallel\nobreakspace {}\cite {cs231}.\relax }}{90}{table.caption.98}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
