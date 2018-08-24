@@ -1,0 +1,96 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Physical Layer Neural Network Framework for Training Data Formation}{84}{chapter.3}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chapter3}{{3}{84}{Physical Layer Neural Network Framework for Training Data Formation}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Abstract}{84}{section.3.1}}
+\citation{wang2017deep,8054694}
+\citation{o2016radio,wang2017deep}
+\citation{pahlavan2005wireless}
+\citation{tsb88tia,rappaport1996wireless}
+\citation{o2016radio,8170853}
+\citation{o2016radio}
+\citation{o2016radio}
+\citation{o2016convolutional}
+\citation{8170853}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Introduction}{85}{section.3.2}}
+\newlabel{sec1}{{3.2}{85}{Introduction}{section.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of the proposed framework and the ChannelPush.py script. SampBasic.hdf5 acts as the Dataset Under Test (DUT) while ChannelConfig.ini as the instructions file. SampOut.hdf5 files are written as outputs. The 3D matrix is formed by the instructions file, containing the 2D matrix's (see Table \ref  {table:tab3}) instance variables. The 2D matrix objects are formed by run-time channel class imports. 1D channel sequences (see Figure \ref  {fig:1dlist}) are formed by permuting the channel imperfection objects from the 2D matrix, and the DUT is pushed sample by sample through each sequence in parallel.\relax }}{85}{figure.caption.95}}
+\newlabel{fig:channeltoolsub}{{3.1}{85}{Illustration of the proposed framework and the ChannelPush.py script. SampBasic.hdf5 acts as the Dataset Under Test (DUT) while ChannelConfig.ini as the instructions file. SampOut.hdf5 files are written as outputs. The 3D matrix is formed by the instructions file, containing the 2D matrix's (see Table \ref {table:tab3}) instance variables. The 2D matrix objects are formed by run-time channel class imports. 1D channel sequences (see Figure \ref {fig:1dlist}) are formed by permuting the channel imperfection objects from the 2D matrix, and the DUT is pushed sample by sample through each sequence in parallel.\relax }{figure.caption.95}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Proposed Framework}{87}{section.3.3}}
+\newlabel{sec2}{{3.3}{87}{Proposed Framework}{section.3.3}{}}
+\citation{cs231}
+\citation{75512}
+\citation{cifar}
+\citation{8054694}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Example 2D Channel Object Matrix (refer to Figure\nobreakspace  {}\ref  {fig:channeltoolsub}). Objects are instances of run-time imported Carrier Frequency Offset (CFO) and Additive White Gaussian Noise (AWGN) Python classes. Instance variables of the objects are imported from the 3D characteristics matrix. Some characteristic sweeps should be linearly spaced (phase ambiguity in radians), and others log spaced (SNR of an AWGN model)\relax }}{88}{table.caption.96}}
+\newlabel{fig:channeltoolstructure}{{3.1}{88}{Example 2D Channel Object Matrix (refer to Figure~\ref {fig:channeltoolsub}). Objects are instances of run-time imported Carrier Frequency Offset (CFO) and Additive White Gaussian Noise (AWGN) Python classes. Instance variables of the objects are imported from the 3D characteristics matrix. Some characteristic sweeps should be linearly spaced (phase ambiguity in radians), and others log spaced (SNR of an AWGN model)\relax }{table.caption.96}{}}
+\newlabel{table:tab3}{{3.1}{88}{Example 2D Channel Object Matrix (refer to Figure~\ref {fig:channeltoolsub}). Objects are instances of run-time imported Carrier Frequency Offset (CFO) and Additive White Gaussian Noise (AWGN) Python classes. Instance variables of the objects are imported from the 3D characteristics matrix. Some characteristic sweeps should be linearly spaced (phase ambiguity in radians), and others log spaced (SNR of an AWGN model)\relax }{table.caption.96}{}}
+\citation{wymeersch2007iterative}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Example set of eight 1D channel sequences (refer to Figure\nobreakspace  {}\ref  {fig:channeltoolsub}) formed by permuting through the 2D channel object matrix. SampBasic.hdf5 is the DUT, and is pushed through each sequence sample by sample, leveraging Multiprocessing.\relax }}{89}{figure.caption.97}}
+\newlabel{fig:1dlist}{{3.2}{89}{Example set of eight 1D channel sequences (refer to Figure~\ref {fig:channeltoolsub}) formed by permuting through the 2D channel object matrix. SampBasic.hdf5 is the DUT, and is pushed through each sequence sample by sample, leveraging Multiprocessing.\relax }{figure.caption.97}{}}
+\citation{cs231}
+\citation{cs231}
+\citation{6815911}
+\citation{n210sbx}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Examples of variations in computer vision image datasets, and a collection of analogies for their signal domain parallel\nobreakspace  {}\cite  {cs231}.\relax }}{90}{table.caption.98}}
+\newlabel{tab:visionsignal}{{3.2}{90}{Examples of variations in computer vision image datasets, and a collection of analogies for their signal domain parallel~\cite {cs231}.\relax }{table.caption.98}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Applications of Proposed Framework}{90}{section.3.4}}
+\newlabel{sec3}{{3.4}{90}{Applications of Proposed Framework}{section.3.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces 1 SPS pulse shaped Quadrature Phase-Shift Keying (QPSK) IQ data representing the baseband data of an Ettus Research N210 transmission. For the sake of visualization, frequency offset from Local Oscillator (LO) drift has been left out. The top track displays the dataset influenced by phase ambiguity and AWGN, then the matched filtering of that data. The bottom track additionally shows STO, where the data is interpolated and filtered up to an intermediate 2 SPS, offset in time, then decimated (and once again match filtered like the top track).\relax }}{91}{figure.caption.99}}
+\newlabel{fig:1spsslides}{{3.3}{91}{1 SPS pulse shaped Quadrature Phase-Shift Keying (QPSK) IQ data representing the baseband data of an Ettus Research N210 transmission. For the sake of visualization, frequency offset from Local Oscillator (LO) drift has been left out. The top track displays the dataset influenced by phase ambiguity and AWGN, then the matched filtering of that data. The bottom track additionally shows STO, where the data is interpolated and filtered up to an intermediate 2 SPS, offset in time, then decimated (and once again match filtered like the top track).\relax }{figure.caption.99}{}}
+\citation{8170853}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces The AWGN channel effect is described by its SNR and Gaussian RV variance, $\sigma $. Three AWGN channels of varying SNR but constant $\sigma $ described by ChannelConfig.ini are applied to the same infile sampBasicmod.py. The outputs of which are manually moved to Intermediate Frequency (IF) folders corresponding to a secondary instructions file, MergeConfig.ini. Merge\_datasets.py (see Figure\nobreakspace  {}\ref  {fig:merge/}) modulates and sums the independent transmissions.\relax }}{92}{figure.caption.100}}
+\newlabel{fig:bashcmd_poster/}{{3.4}{92}{The AWGN channel effect is described by its SNR and Gaussian RV variance, $\sigma $. Three AWGN channels of varying SNR but constant $\sigma $ described by ChannelConfig.ini are applied to the same infile sampBasicmod.py. The outputs of which are manually moved to Intermediate Frequency (IF) folders corresponding to a secondary instructions file, MergeConfig.ini. Merge\_datasets.py (see Figure~\ref {fig:merge/}) modulates and sums the independent transmissions.\relax }{figure.caption.100}{}}
+\citation{cs231}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Three 16 SPS pulse shaped QPSK datasets from Figure\nobreakspace  {}\ref  {fig:bashcmd_poster/} are modulated to intermediate frequencies 10, 15, and 20 MHz. Each dataset was pushed through the framework as a DUT and modified by a unique AWGN channel block independently, each representing a transmitted signal. Future work will implement this feature to produce MIMO and OFDM datasets.\relax }}{93}{figure.caption.101}}
+\newlabel{fig:merge/}{{3.5}{93}{Three 16 SPS pulse shaped QPSK datasets from Figure~\ref {fig:bashcmd_poster/} are modulated to intermediate frequencies 10, 15, and 20 MHz. Each dataset was pushed through the framework as a DUT and modified by a unique AWGN channel block independently, each representing a transmitted signal. Future work will implement this feature to produce MIMO and OFDM datasets.\relax }{figure.caption.101}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Simulations and Results}{93}{section.3.5}}
+\newlabel{sec4}{{3.5}{93}{Simulations and Results}{section.3.5}{}}
+\newlabel{eq:KLD}{{3.3}{94}{Simulations and Results}{equation.3.5.3}{}}
+\newlabel{eq:pi}{{3.4}{94}{Simulations and Results}{equation.3.5.4}{}}
+\newlabel{eq:qi}{{3.5}{94}{Simulations and Results}{equation.3.5.5}{}}
+\newlabel{eq:cdfinv}{{3.6}{94}{Simulations and Results}{equation.3.5.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces RML2016.10A is composed of 1,000 training sets containing 128 samples each per class per SNR value. Transmissions average 28.3 bits divergence from theory. The proposed application (see Figure\nobreakspace  {}\ref  {fig:1spsslides}) averages 36.2 bit divergence from theory. In order to achieve similar KLD entropy at an RF NNs evaluation time to state-of-the-art datasets, this analysis shows our proposed application requires at least 256 samples per transmission. The resulting divergence from theory is 25 bits, or a 11.58\% decrease from RML2016.10A.\relax }}{95}{figure.caption.102}}
+\newlabel{fig:kldiv}{{3.6}{95}{RML2016.10A is composed of 1,000 training sets containing 128 samples each per class per SNR value. Transmissions average 28.3 bits divergence from theory. The proposed application (see Figure~\ref {fig:1spsslides}) averages 36.2 bit divergence from theory. In order to achieve similar KLD entropy at an RF NNs evaluation time to state-of-the-art datasets, this analysis shows our proposed application requires at least 256 samples per transmission. The resulting divergence from theory is 25 bits, or a 11.58\% decrease from RML2016.10A.\relax }{figure.caption.102}{}}
+\newlabel{eq:KLDadd}{{3.7}{95}{Simulations and Results}{equation.3.5.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Conclusion}{96}{section.3.6}}
+\newlabel{sec5}{{3.6}{96}{Conclusion}{section.3.6}{}}
+\@setckpt{chapter3}{
+\setcounter{page}{97}
+\setcounter{equation}{7}
+\setcounter{enumi}{5}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{6}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{6}
+\setcounter{table}{2}
+\setcounter{parentequation}{1}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{0}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lotdepth}{1}
+\setcounter{float@type}{8}
+\setcounter{r@tfl@t}{0}
+\setcounter{Item}{18}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{35}
+\setcounter{FancyVerbLine}{0}
+\setcounter{lstnumber}{23}
+\setcounter{section@level}{1}
+\setcounter{lstlisting}{0}
+}

@@ -1,0 +1,21 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: IEEEtran.bst
+A level-1 auxiliary file: appendixb.aux
+A level-1 auxiliary file: appendixc.aux
+Database file #1: mybib.bib
+Repeated entry---line 136 of file mybib.bib
+ : @article{dadaptadversarial
+ :                           ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty author in n210sbx
+Warning--empty journal in cifar
+
+Done.
+(There was 1 error message)
